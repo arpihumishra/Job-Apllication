@@ -1,0 +1,134 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    margin: 70px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.firstrow{
+    display: flex;
+    justify-content:space-between ;
+    margin-bottom: 10px;
+    
+}
+
+.firstrow input{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border-width: 0;
+    border: 1px solid black;
+
+}
+
+.firstname{
+    display: flex;
+    flex-direction: column;
+}
+
+.secondname{
+    display: flex;
+    flex-direction: column;
+}
+.secondrow{
+    display: flex;
+    justify-content:space-between ;
+    margin-bottom: 10px;
+    
+}
+
+.secondrow input,select{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border-width: 0;
+    border: 1px solid black;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+}
+
+.jobrole{
+    display: flex;
+    flex-direction: column;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.fourthrow{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.city{
+    display: flex;
+    flex-direction: column;
+}
+
+.pincode{
+    display: flex;
+    flex-direction: column;
+}
+.fourthrow input{
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+    border-width: 0;
+    border: 1px solid black;
+
+}
+.fifthrow{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.date{
+    display: flex;
+    flex-direction: column;
+}
+.cv{
+    display: flex;
+    flex-direction: column;
+}
+.fifthrow input{
+    height: 20px;
+    width: 200px;
+}
+.cv input{
+    border: 1px solid black;
+    padding: 4px;
+}
+.button{
+    display: flex;
+    justify-content: right;
+}
+
+.button button{
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.button button:hover{
+    background-color: rgb(140, 38, 236);
+}
+
